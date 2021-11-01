@@ -10,7 +10,7 @@ $(document).ready(function() {
 		$.ajax({
 			type : "POST",
 			contentType : "application/json",
-			url : "http://localhost:8080/api/prime",
+			url : "/app/api/prime",
 			data : JSON.stringify(search),
 			dataType : 'json',
 			cache : false,
